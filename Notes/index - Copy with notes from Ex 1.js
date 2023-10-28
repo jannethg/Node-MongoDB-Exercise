@@ -2,7 +2,7 @@
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert').strict;
 
-const url = 'mongodb://localhost:27017/';
+const url = 'mongodb://127.0.0.1:27017/';
 const dbname = 'nucampsite';
 
 // We use the MongoClient.connect method in order to make a connection to the MongoDB Server
